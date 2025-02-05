@@ -18,7 +18,7 @@ def main():
   
   start = time.time()
 
-  while round(approxPi, 7) != round(realPi, 7):
+  while round(approxPi, 2) != round(realPi, 2):
     approxPi = approxPi + sign * 4/denom
     sign = sign * -1 
     denom = denom + 2 
